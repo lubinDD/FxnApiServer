@@ -1,0 +1,9 @@
+{
+    "appenders":[
+        {
+            "type":     "dateFile",
+            "category": "logging",
+            "filename": "logs/system.log",
+            "pattern":  "-yyyy-MM-dd"
+        }]
+}
